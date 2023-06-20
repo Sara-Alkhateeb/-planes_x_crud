@@ -5,7 +5,6 @@ https://github.com/wsvincent/djangox/assets/766418/a73ea730-a7b4-4e53-bf51-aa68f
 
 
 
-
 ## 🚀 Features
 
 - Django 4.2 & Python 3.11
