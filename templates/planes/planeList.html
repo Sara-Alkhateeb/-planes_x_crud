@@ -1,0 +1,14 @@
+{% extends '_base.html' %}
+
+{% block content %}
+
+<a href="{% url 'plane_create' %}">New Plane</a>
+<ul>
+    {% for plane in object_list %}
+    <li>
+        <a href="{% url 'plane_detail' plane.pk %}">{{ plane.name }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock content %}
